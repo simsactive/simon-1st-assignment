@@ -9,7 +9,6 @@
 body {
     background-image: url("../images/banner/banner3.png");
     background-repeat: no-repeat;
-    background-position: center;
     width: 1600px;
     height: 580px;
 }
@@ -53,7 +52,7 @@ button {
 /* failure section styles */
 
 .banner {
-    margin-top: 110px;
+    margin-top: 108px;
     padding-left: 200px;
     display: flex;
     align-items: center;
@@ -158,25 +157,29 @@ ul li {
 /* Special section Added  */
 
 .special-section {
+    margin-top: 45px;
     display: flex;
     align-items: center;
-    background-color: #005FAC;
+    padding-left: 50px;
+    background-color: #532411;
+    margin-right: 50px;
 }
 
 .info-section {
-    padding-left: 250px;
-    padding-bottom: 10px;
+    
 }
 
 .btn-personal {
     display: flex;
+    margin-bottom: 20px;
 
 }
 
 .personal-title {
     margin-bottom: 75px;
     font-weight: 900;
-    font-size: 45px;
+    font-size: 35px;
+    color: #FFFFFF;
 }
 
 li {
@@ -185,7 +188,7 @@ li {
 
 
 button {
-    width: 300px;
+    width: 360px;
     height: 64px;
     font-weight: 100px;
     font-size: 24px;
@@ -193,3 +196,6 @@ button {
     line-height: 23px;
     background-color: #151414;
 }
+
+/* Future & subscribe */
+
