@@ -5,6 +5,7 @@
 
 /* header and navigation styles */
 
+
 body {
     background-image: url("../images/banner/banner3.png");
     background-repeat: no-repeat;
@@ -50,7 +51,7 @@ button {
 
 /* failure section styles */
 
-.banner{
+.banner {
     margin-top: 110px;
     padding-left: 200px;
     display: flex;
@@ -58,7 +59,7 @@ button {
     background-color: #151414;
 }
 
-.banner-sub-title{
+.banner-sub-title {
     padding-top: 300px;
     padding-left: 50px;
 }
@@ -69,7 +70,7 @@ button {
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 30px;
-    color:#005FAC
+    color: #005FAC
 }
 
 .banner-description {
@@ -77,7 +78,7 @@ button {
     height: 104px;
     font-weight: 400;
     font-size: 16px;
-    color:#4076a1
+    color: #4076a1
 }
 
 ul {
@@ -112,15 +113,42 @@ ul li {
 }
 
 
-.plan-title{
+.plan-title {
     font-weight: 700;
     font-size: 30px;
 }
 
-.plan-sub-title{
+.plan-sub-title {
     font-weight: 500;
     font-size: 25px;
     color: #737272
+}
+
+
+/* gradient and image style  */
+
+.gradient {
+    background-image: url(../images/gradient1.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 2221.96px;
+    margin: 200px;
+}
+
+.gradient-title {
+    font-weight: 700;
+    font-size: 40px;
+    padding: 50px 600px 20px 20px;
+    color: #FFFFFF;
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 25px;
+    color: #005FAC;
+    margin-top: 15px;
 }
 
 
